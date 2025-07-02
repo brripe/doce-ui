@@ -1,0 +1,11 @@
+@use "reset-css/sass/reset.scss";
+@use "./global";
+
+html {
+  font-family: global.$mainFont;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
