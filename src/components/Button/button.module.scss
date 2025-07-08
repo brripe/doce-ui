@@ -1,13 +1,13 @@
-
+@use "/src/styles/global.scss";
 
 .buttonContainer {
   width: 100%;
-  // height: 54px;
   border-radius:13px;
-  background-color: #FF6A00;
+  background-color: global.$colorButton;
   padding: 2rem;
   box-shadow: 0 0 5px black;
   color: white;
   border:none;
   font-size: 2rem;
+  font-family:var(global.$mainFont) ;
 }
