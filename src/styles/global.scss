@@ -1,1 +1,12 @@
-$mainFont: "Roboto", Arial, sans-serif;
+$mainFont: "Noto Sans", sans-serif;
+
+$orange500: rgb(254, 119, 67);
+
+$blue300: rgb(68, 125, 155);
+$blue500: rgb(65, 105, 225);
+$blue600: rgb(39, 63, 79);
+
+@mixin outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}

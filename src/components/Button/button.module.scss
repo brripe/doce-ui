@@ -1,0 +1,20 @@
+@use "/src/styles/global.scss" as global;
+
+.buttonContainer {
+  width: 100%;
+
+  font-family: global.$mainFont;
+  color: whitesmoke;
+  font-size: 2rem;
+
+  padding: 2rem;
+  border: none;
+
+  background-color: global.$orange500;
+  box-shadow: 0 0 5px global.$orange500;
+  border-radius: 13px;
+
+  transition-duration: 0.4s;
+
+  cursor: pointer;
+}
